@@ -140,5 +140,5 @@ fig = plt.figure(figsize=[10,8])
 ax = fig.add_subplot(projection='3d')
 ax.scatter3D(X[estimated][0:-1:5],Y[estimated][0:-1:5],Z[estimated][0:-1:5],c=pixel_color/255.0,marker='.')
 
-ax.view_init(elev=-75,azim=-90)
+ax.view_init(elev=-90,azim=-90)
 plt.show()
